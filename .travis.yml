@@ -8,4 +8,4 @@ install:
 - pip install -r requirements.txt
 before_script: export PYTHONPATH=$PYTHONPATH:$(pwd)
 script:
-- python trading/test/TestMarketSimulator.py
+- python trading/tests/TestMarketSimulator.py
